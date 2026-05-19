@@ -71,13 +71,6 @@ streamlit run trading.py
 
 ---
 
-# 🌐 Live Demo
-
-Add your deployed Streamlit link here:
-
-```text
-https://your-app-name.streamlit.app
-```
 
 ---
 
