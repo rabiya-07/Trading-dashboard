@@ -23,7 +23,8 @@ st.title("📊 Crypto Trading + Sentiment Dashboard")
 # =========================
 @st.cache_data
 def load_data():
-    trades = pd.read_csv("trades.csv")
+    trades = pd.read_csv("trades(2).zip", compression='zip')
+    #trades = pd.read_csv("trades.csv")
     sentiment = pd.read_csv("sentiment.csv")
 
     trades.columns = trades.columns.str.strip()
