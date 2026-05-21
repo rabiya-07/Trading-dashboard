@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 st.set_page_config(page_title="Trading Sentiment Dashboard", layout="wide")
 st.title("Crypto Trading + Sentiment Dashboard")
 
-TRADES_FILE = Path("trades.csv")
+TRADES_FILE = Path("historical_data.csv")
 SENTIMENT_FILE = Path("sentiment.csv")
 
 
